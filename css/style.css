@@ -1,0 +1,42 @@
+.logo {
+    top: 0px;
+    left: 50px;
+    position: absolute;
+    margin-left: 50px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 60px;
+    overflow: hidden;
+    margin-right: 50px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+
+}
+
+li {
+    float: right;
+    font-size: medium;
+}
+
+li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    margin: 5px;
+    text-decoration: none;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    transition: all 0.05s;
+}
+
+.navList li {
+    display: inline-block;
+}
+
+li a:hover {
+    font-weight: bolder;
+}
